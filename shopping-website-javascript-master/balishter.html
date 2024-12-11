@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="kk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Бәліштер</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      margin-top: 30px;
+    }
+
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-details h5 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .product-details p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .product-details .btn {
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center mb-4">Бәліштер</h1>
+    <div class="row">
+      <!-- Product 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="product-card">
+          <img src="img/pirog.png" alt="Тауық еті қосылған бәліш" class="product-img">
+          <div class="product-details">
+            <h5>Тауық еті қосылған бәліш</h5>
+            <p>Дәмді Тауық еті қосылған бәліш.</p>
+            <button class="btn btn-success">Себетке қосу</button>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="product-card">
+          <img src="img/suzbe.png" alt="Сүзбелі-жидекті бәліш" class="product-img">
+          <div class="product-details">
+            <h5>Сүзбелі-жидекті бәліш</h5>
+            <p>Жұмсақ Сүзбелі-жидекті бәліш.</p>
+            <button class="btn btn-success">Себетке қосу</button>
+          </div>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="product-card">
+          <img src="img/shpinat.png" alt="Шпинат пен брынзалы бәліш" class="product-img">
+          <div class="product-details">
+            <h5>Шпинат пен брынзалы бәліш</h5>
+            <p>Шпинат пен брынзалы бәліш.</p>
+            <button class="btn btn-success">Себетке қосу</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="index.html" class="btn btn-secondary d-block mx-auto mt-4" style="width: 200px;">Басты бетке оралу</a>
+  </div>
+</body>
+
+</html>
+
+
